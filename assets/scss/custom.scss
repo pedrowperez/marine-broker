@@ -1,0 +1,86 @@
+@media (min-width: $lg) {
+  .container {
+    max-width: 1040px;
+  }
+}
+
+@media (min-width: $xl) {
+  .container {
+    max-width: 1630px;
+  }
+}
+
+.navbar {
+  background-color: #153e4d;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 8px 32px;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 66px;
+  text-transform: uppercase;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  &.btn-primary {
+    background-color: black;
+    &:hover {
+      color: black;
+      background-color: $white;
+    }
+  }
+}
+
+.generalForm {
+
+  .form-group {
+    max-width: 500px;
+    background-color: rgba(255,255,255,0.8);
+    border: solid 1px #3f3f3f;
+    width: 100%;
+    height: auto;
+    padding: 35px 2px 2px;
+    position: relative;
+    &.focus {
+      border: solid 1px darken(black, 10%);
+    }
+    label {
+      position: absolute;
+      top: 12px;
+      left:6px;
+    }
+    .form-control {
+      background-color: transparent;
+      padding: 6px;
+      border: none;
+      height: auto;
+      position: relative;
+      z-index: 2;
+      font-size: 18px;
+      &:focus {
+        box-shadow: unset;
+        outline: unset;
+      }
+    }
+    #cor-form, #corestofado-form, #acessorios-form {
+      label {
+        position: relative;
+      }
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+}
