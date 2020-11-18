@@ -45,20 +45,22 @@
 .generalForm {
 
   .form-group {
-    max-width: 500px;
+    max-width: 600px;
     background-color: rgba(255,255,255,0.8);
-    border: solid 1px #3f3f3f;
+    border: solid 2px #153e4d;
     width: 100%;
+    border-radius: 4px;
     height: auto;
-    padding: 35px 2px 2px;
+    padding: 52px 2px 2px;
     position: relative;
     &.focus {
-      border: solid 1px darken(black, 10%);
+      border: solid 1px darken(#153e4d, 10%);
     }
     label {
       position: absolute;
-      top: 12px;
-      left:6px;
+    top: 10px;
+    left: 16px;
+    font-size: 22px;
     }
     .form-control {
       background-color: transparent;
@@ -74,7 +76,10 @@
       }
     }
     #cor-form, #corestofado-form, #acessorios-form {
+      display: flex;
+      justify-content: space-around;
       label {
+        width: 100%;
         position: relative;
       }
       display: flex;
