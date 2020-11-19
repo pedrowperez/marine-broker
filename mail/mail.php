@@ -27,8 +27,8 @@ $Body = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http:/
 
 <head>
     <title>Marine Broker - Proposta NHD</title>
-    <meta property="og:title" content="Open Banking e Crédito Digital - Já é realidade na a55! ">
-    <meta name="twitter:title" content="Open Banking e Crédito Digital - Já é realidade na a55! ">
+    <meta property="og:title" content="Marine Broker">
+    <meta name="twitter:title" content="Marine Broker">
 
     <meta name="x-apple-disable-message-reformatting">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
