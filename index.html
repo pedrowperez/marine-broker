@@ -8,24 +8,38 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png" />
     <!-- Bootstrap CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Stalinist+One&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&family=Stalinist+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="assets/img/logo.png" alt="" class="img-fluid" />
-        </a>
-      </div>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="#">
+        <img
+          src="assets/img/logo.png"
+          alt=""
+          class="img-fluid"
+          style="max-width: 92px"
+        />
+        <span class="c-white thin" style="font-family: sans-serif">|</span>
+        <img
+          src="assets/img/nhdboats.png"
+          alt=""
+          class="img-fluid"
+          style="max-width: 72px"
+        />
+      </a>
     </nav>
 
-    <section id="accordion">
-      <div class="container pt-5">
+    <section id="accordion" class="py-5">
+      <label id="responseSucess" class="d-none"> </label>
+      <div id="controlPanel" class="container pt-5">
         <div class="row justify-content-around">
-          <div class="col-12 col-lg-2">
+          <div class="col-6">
             <button
               class="btn-default"
               data-toggle="collapse"
@@ -36,61 +50,67 @@
               NHD 270
             </button>
           </div>
-          <div class="col-12 col-lg-2">
-            <button class="btn-default"  data-toggle="collapse"
-            href="#nhd270popa"
-            aria-expanded="false"
-            aria-controls="nhd270popa">
-            NHD 270 <span> POPA</span>
+          <div class="col-6">
+            <button
+              class="btn-default"
+              data-toggle="collapse"
+              href="#nhd270popa"
+              aria-expanded="false"
+              aria-controls="nhd270popa"
+            >
+              NHD 270 <span> POPA</span>
             </button>
           </div>
-          <div class="col-12 col-lg-2">
-            <button class="btn-default"  data-toggle="collapse"
-            href="#nhd280"
-            aria-expanded="false"
-            aria-controls="nhd280">
-            NHD 280
+          <div class="col-6">
+            <button
+              class="btn-default"
+              data-toggle="collapse"
+              href="#nhd280"
+              aria-expanded="false"
+              aria-controls="nhd280"
+            >
+              NHD 280
             </button>
           </div>
-          <div class="col-12 col-lg-2">
-            <button class="btn-default"  data-toggle="collapse"
-            href="#nhd280popa"
-            aria-expanded="false"
-            aria-controls="nhd280popa">
-            NHD 280 <span>POPA</span>
+          <div class="col-6">
+            <button
+              class="btn-default"
+              data-toggle="collapse"
+              href="#nhd280popa"
+              aria-expanded="false"
+              aria-controls="nhd280popa"
+            >
+              NHD 280 <span>POPA</span>
             </button>
           </div>
-          <div class="col-12 col-lg-2">
-            <button class="btn-default"  data-toggle="collapse"
-            href="#nhd340"
-            aria-expanded="false"
-            aria-controls="nhd340">
-            NHD 340
+          <div class="col-6">
+            <button
+              class="btn-default"
+              data-toggle="collapse"
+              href="#nhd340"
+              aria-expanded="false"
+              aria-controls="nhd340"
+            >
+              NHD 340
             </button>
           </div>
         </div>
       </div>
       <div class="container pt-5">
         <div class="row justify-content-center">
-            <div class="collapse" id="nhd270" data-parent="#accordion">
-            </div>
-            <div class="collapse" id="nhd270popa" data-parent="#accordion">
-            </div>
-            <div class="collapse" id="nhd280" data-parent="#accordion">
-            </div>
-            <div class="collapse" id="nhd280popa" data-parent="#accordion">
-            </div>
-            <div class="collapse" id="nhd340" data-parent="#accordion">
-            </div>
+          <div class="collapse" id="nhd270" data-parent="#accordion"></div>
+          <div class="collapse" id="nhd270popa" data-parent="#accordion"></div>
+          <div class="collapse" id="nhd280" data-parent="#accordion"></div>
+          <div class="collapse" id="nhd280popa" data-parent="#accordion"></div>
+          <div class="collapse" id="nhd340" data-parent="#accordion"></div>
         </div>
-    </div>
+      </div>
     </section>
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.min.js"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"

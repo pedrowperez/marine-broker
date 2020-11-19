@@ -10,14 +10,21 @@
   }
 }
 
+
+
 .navbar {
   background-color: #153e4d;
+  .navbar-brand {
+    img {
+      max-height: 62px;
+    }
+  }
 }
 
 .btn {
   display: inline-block;
   font-weight: 500;
-  color: black;
+  color: white;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -26,15 +33,15 @@
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 8px 32px;
-  font-size: 1rem;
+  padding: 12px 32px;
+  font-size: 1.4rem;
   line-height: 1.5;
-  border-radius: 66px;
+  border-radius: 16px;
   text-transform: uppercase;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   &.btn-primary {
-    background-color: black;
+    background-color: #153e4d;
     &:hover {
       color: black;
       background-color: $white;
@@ -43,24 +50,42 @@
 }
 
 .generalForm {
-
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   .form-group {
-    max-width: 600px;
-    background-color: rgba(255,255,255,0.8);
+    max-width: 98%;
+    background-color: rgba(255, 255, 255, 0.8);
     border: solid 2px #153e4d;
     width: 100%;
     border-radius: 4px;
     height: auto;
     padding: 52px 2px 2px;
     position: relative;
+
+    select {
+      padding: 12px;
+      width: 100%;
+      font-size: 22px;
+    }
     &.focus {
       border: solid 1px darken(#153e4d, 10%);
     }
+
     label {
       position: absolute;
-    top: 10px;
-    left: 16px;
-    font-size: 22px;
+      top: 10px;
+      left: 16px;
+      font-size: 22px;
+      &.error {
+        position: absolute!important;
+        right: 20px;
+        left: auto;
+        text-align: right;
+        color: red;
+        font-size: 16px;
+      }
+
     }
     .form-control {
       background-color: transparent;
@@ -75,17 +100,35 @@
         outline: unset;
       }
     }
-    #cor-form, #corestofado-form, #acessorios-form {
-      display: flex;
-      justify-content: space-around;
-      label {
-        width: 100%;
-        position: relative;
+    #cor-form,
+    #corestofado-form,
+    #acessorios-form {
+     
+      div {
+        border-top: 2px solid #153e4d;
+        display: flex;
+        justify-content: space-around;
+        padding: 12px;
+        align-items: center;
+        label {
+          font-size: 16px;
+          width: 90%;
+          position: relative;
+          margin: 0;
+          padding-bottom: 20px;
+        }
+        input {
+          &[type="checkbox"] {
+            width: 47px;
+            height: 47px;
+          }
+      
+          &[type="radio"] {
+            width: 47px;
+            height: 47px;
+          }
+        }
       }
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-around;
     }
   }
 }
