@@ -19,6 +19,7 @@ $().ready(function () {
     const dataBase = [
       {
         embarcacao: [
+
           {
             modelo: "nhd270",
             casco: 166900.0,
@@ -225,17 +226,25 @@ $().ready(function () {
                 valor: 6900.0,
               },
               { name: "GLASS COCKPIT VOLVO PENTA 7", valor: 7000.0 },
+              { name: "KIT ENXOVAL NHD 280:  6 ALMOFADAS, 1 LENÇOL, 1 MANTA, 2 TOALHAS DE ROSTO e 2 TOALHAS DE BANHO.", valor: 2500.0 },
               { name: "CONVÉS CINZA", valor: 5000.0 },
               { name: "CARRETA RODO ENCALHE", valor: 6600.0 },
               { name: "CRISTALEIRA EM ACRÍLICO", valor: 990.0 },
               { name: "CHURRASQUEIRA A CARVÃO", valor: 1500.0 },
               { name: "MESA DE TEKA NO COCKPIT", valor: 1000.0 },
-              { name: "COMPLEMENTO ESTOFADO DE PROA", valor: 1500.0 },
+              { name: "SOLÁRIO DE PROA", valor: 2900.0 },
               { name: "TOLDO", valor: 4400.0 },
+              { name: "FECHAMENTO TOTAL DO TOLDO", valor: 7000.0 },
+
               { name: "PISO EVA NHD BOATS", valor: 5500.0 },
+
               { name: "PISO TEKA SINTÉTICA NHD BOATS", valor: 6500.0 },
+
               { name: "OMBRELLONE  NHD BOATS", valor: 1500.0 },
+
+              { name: "ARMÁRIO ACRÍLICO NA CABINE", valor: 1200.0 },
               { name: "ÂNCORA 7,5 KGS INOX", valor: 2000.0 },
+
               { name: "GUINCHO ELÉTRICO C/ 40m DE CORRENTE", valor: 9800.0 },
               { name: "SONAR GARMIN ECHO 301", valor: 4000.0 },
               { name: "GPS SIMRAD 7 POL. C/ SONDA", valor: 9000.0 },
@@ -255,25 +264,14 @@ $().ready(function () {
                 valor: 3000.0,
               },
               { name: "BATERIA AUXILIAR 150 Ah", valor: 1500.0 },
-              { name: "FLAPS HIDRÁULICOS", valor: 7000.0 },
-              { name: "LUZ STROBO", valor: 1000.0 },
-              {
-                name:
-                  "KIT ENXOVAL NHD 280:  6 ALMOFADAS, 1 LENÇOL, 1 MANTA, 2 TOALHAS DE ROSTO e 2 TOALHAS DE BANHO.",
-                valor: 2500.0,
-              },
-              { name: "FECHAMENTO TOTAL DO TOLDO", valor: 7000.0 },
-              { name: "ARMÁRIO ACRÍLICO NA CABINE", valor: 1200.0 },
-              { name: "SOLÁRIO DE PROA", valor: 2900.0 },
-              {
-                name:
-                  "CONJUNTO MICROONDAS (MÓVEL EM TEKA + MICROONDAS 20 L + INVERSOR XANTREX 1800W, 110 V)",
-                valor: 8700.0,
-              },
+              { name: "CONJUNTO MICROONDAS (MÓVEL EM TEKA + MICROONDAS 20 L + INVERSOR XANTREX 1800W, 110 V)", valor: 8700.0 },
               { name: "TV LED 12 V + ANTENA", valor: 3800.0 },
               { name: "GELADEIRA ELBER 52 L 12V", valor: 5000.0 },
+              { name: "FLAPS HIDRÁULICOS", valor: 7000.0 },
+              { name: "LUZ STROBO", valor: 1000.0 },
             ],
           },
+
           {
             modelo: "nhd280popa",
             casco: 195000.0,
@@ -313,18 +311,26 @@ $().ready(function () {
                   "KIT LUX:  Roller em inox, espelho de proa na cabine, lixeira em acrílico, Bandeira do Brasil, capa de transporte, revestimento acústico do motor, luz de porão, porta toalhas em inox WC, espelho WC, vaso elétrico, ducha WC, suporte de papel higiênico, base retrátil mesa cabine e Full LED targa",
                 valor: 6900.0,
               },
+              { name: "KIT ENXOVAL NHD 280:  6 ALMOFADAS, 1 LENÇOL, 1 MANTA, 2 TOALHAS DE ROSTO e 2 TOALHAS DE BANHO.", valor: 2500.0 },
               { name: "GLASS COCKPIT VOLVO PENTA 7", valor: 7000.0 },
               { name: "CONVÉS CINZA", valor: 5000.0 },
               { name: "CARRETA RODO ENCALHE", valor: 6600.0 },
               { name: "CRISTALEIRA EM ACRÍLICO", valor: 990.0 },
               { name: "CHURRASQUEIRA A CARVÃO", valor: 1500.0 },
               { name: "MESA DE TEKA NO COCKPIT", valor: 1000.0 },
-              { name: "COMPLEMENTO ESTOFADO DE PROA", valor: 1500.0 },
+              { name: "SOLÁRIO DE PROA", valor: 2900.0 },
               { name: "TOLDO", valor: 4400.0 },
+              { name: "FECHAMENTO TOTAL DO TOLDO", valor: 7000.0 },
+
               { name: "PISO EVA NHD BOATS", valor: 5500.0 },
+
               { name: "PISO TEKA SINTÉTICA NHD BOATS", valor: 6500.0 },
+
               { name: "OMBRELLONE  NHD BOATS", valor: 1500.0 },
+
+              { name: "ARMÁRIO ACRÍLICO NA CABINE", valor: 1200.0 },
               { name: "ÂNCORA 7,5 KGS INOX", valor: 2000.0 },
+
               { name: "GUINCHO ELÉTRICO C/ 40m DE CORRENTE", valor: 9800.0 },
               { name: "SONAR GARMIN ECHO 301", valor: 4000.0 },
               { name: "GPS SIMRAD 7 POL. C/ SONDA", valor: 9000.0 },
@@ -344,25 +350,14 @@ $().ready(function () {
                 valor: 3000.0,
               },
               { name: "BATERIA AUXILIAR 150 Ah", valor: 1500.0 },
-              { name: "FLAPS HIDRÁULICOS", valor: 7000.0 },
-              { name: "LUZ STROBO", valor: 1000.0 },
-              {
-                name:
-                  "KIT ENXOVAL NHD 280:  6 ALMOFADAS, 1 LENÇOL, 1 MANTA, 2 TOALHAS DE ROSTO e 2 TOALHAS DE BANHO.",
-                valor: 2500.0,
-              },
-              { name: "FECHAMENTO TOTAL DO TOLDO", valor: 7000.0 },
-              { name: "ARMÁRIO ACRÍLICO NA CABINE", valor: 1200.0 },
-              { name: "SOLÁRIO DE PROA", valor: 2900.0 },
-              {
-                name:
-                  "CONJUNTO MICROONDAS (MÓVEL EM TEKA + MICROONDAS 20 L + INVERSOR XANTREX 1800W, 110 V)",
-                valor: 8700.0,
-              },
+              { name: "CONJUNTO MICROONDAS (MÓVEL EM TEKA + MICROONDAS 20 L + INVERSOR XANTREX 1800W, 110 V)", valor: 8700.0 },
               { name: "TV LED 12 V + ANTENA", valor: 3800.0 },
               { name: "GELADEIRA ELBER 52 L 12V", valor: 5000.0 },
+              { name: "FLAPS HIDRÁULICOS", valor: 7000.0 },
+              { name: "LUZ STROBO", valor: 1000.0 },
             ],
           },
+
           {
             modelo: "nhd340",
             casco: 409600.0,
@@ -415,60 +410,80 @@ $().ready(function () {
             acessorios: [
               {
                 name:
-                  "KIT LUX:  Lixeira acrílico cockpit, Cristaleira acrílico cockpit, churrasqueira a carvão, Full LED cortesia, capa de cobertura, revestimento acústico do motor, luz de porão, buzina , roller de âncora em inox, espelho de proa na cabine, espelho WC, porta toalha em inox, porta papel higiênico, ducha.",
-                valor: 6900.0,
+                  "KIT LUX:  Lixeira acrílico cockpit, Cristaleira acrílico cockpit, churrasqueira a carvão, Full LED cortesia, capa de cobertura, revestimento acústico do motor, luz de porão, buzina , roller de âncora em inox, espelho de proa na cabine, espelho WC, porta toalha em inox, porta papel higiênico e ducha.",
+                valor: 10900.0,
               },
-              { name: "KIT ENXOVAL NHD 340:  9 ALMOFADAS, 2 LENÇÓIS, 1 MANTA, 2 TOALHAS DE ROSTO e 2 TOALHAS DE BANHO E UMA BOLSA CAMURÇA", valor: 7000.0 },
+              {
+                name:
+                  "KIT ENXOVAL NHD 340:  9 ALMOFADAS, 2 LENÇÓIS, 1 MANTA, 2 TOALHAS DE ROSTO e 2 TOALHAS DE BANHO E UMA BOLSA CAMURÇA",
+                valor: 3500.0,
+              },
               { name: "GLASS COCKPIT VOLVO PENTA 7", valor: 7000.0 },
-              { name: "CONVÉS CINZA", valor: 5000.0 },
-              { name: "CARRETA RODO ENCALHE", valor: 6600.0 },
-              { name: "CRISTALEIRA EM ACRÍLICO", valor: 990.0 },
-              { name: "CHURRASQUEIRA A CARVÃO", valor: 1500.0 },
-              { name: "MESA DE TEKA NO COCKPIT", valor: 1000.0 },
-              { name: "COMPLEMENTO ESTOFADO DE PROA", valor: 1500.0 },
-              { name: "TOLDO", valor: 4400.0 },
-              { name: "PISO EVA NHD BOATS", valor: 5500.0 },
-              { name: "PISO TEKA SINTÉTICA NHD BOATS", valor: 6500.0 },
+              { name: "CONVÉS CINZA", valor: 8000.0 },
+              { name: "TOLDO TECIDO ACRÍLICO", valor: 7100.0 },
+              { name: "FECHAMENTO TOTAL TOLDO", valor: 9000.0 },
+              { name: "TETO RÍGIDO COCKPIT", valor: 9600.0 },
+              { name: "FECHAMENTO TOTAL TECIDO TETO RÍGIDO", valor: 9000.0 },
+              { name: "REVESTIMENTO DO TETO DA CABINE", valor: 7900.0 },
+              { name: "CARRETA RODO ENCALHE", valor: 12000.0 },
+              { name: "MESA DE TEKA NO COCKPIT", valor: 2000.0 },
+              { name: "JOGO 2 BANQUETAS PLATAFORMA", valor: 2000.0 },
+              { name: "PISO EVA NHD BOATS", valor: 7500.0 },
+              { name: "PISO TEKA SINTÉTICA NHD BOATS", valor: 9700.0 },
               { name: "OMBRELLONE  NHD BOATS", valor: 1500.0 },
-              { name: "ÂNCORA 7,5 KGS INOX", valor: 2000.0 },
+              { name: "ÂNCORA 12 KGS INOX", valor: 2800.0 },
+
+
               { name: "GUINCHO ELÉTRICO C/ 40m DE CORRENTE", valor: 9800.0 },
               { name: "SONAR GARMIN ECHO 301", valor: 4000.0 },
               { name: "GPS SIMRAD 7 POL. C/ SONDA", valor: 9000.0 },
-              { name: "SISTEMA SOM 2 PARES ALTO FALANTES", valor: 2800.0 },
-              { name: "SISTEMA SOM 3 PARES ALTO FALANTES", valor: 3500.0 },
+              { name: "GPS SIMRAD 9 POL. C/ SONDA", valor: 14000.0 },
+              { name: "GPS SIMRAD 12 POL. C/ SONDA", valor: 28500.0 },
               {
                 name:
-                  "KIT SOM PREMIUM -SISTEMA DE SOM BOSS COM 2 PARES ALTO FALANTES JBL  6 X 9 + 1 PAR 6'' + SUBWOOFER 12 POLEGADAS",
+                  "KIT SOM -SISTEMA DE SOM BOSS COM 3 PARES ALTO FALANTES JBL  6 X 9",
+                valor: 5000.0,
+              },
+              {
+                name:
+                  "KIT SOM PREMIUM -SISTEMA DE SOM BOSS COM 3 PARES ALTO FALANTES JBL  6 X 9 + SUBWOOFER 12 POLEGADAS",
                 valor: 7000.0,
               },
               { name: "FAROL DE BUSCA", valor: 1690.0 },
               { name: "RADIO VHF + ANTENA", valor: 2600.0 },
-              { name: "BUZINA", valor: 900.0 },
+              { name: "PLACA REFRIGERADORA GELEIRA", valor: 3500.0 },
               { name: "LUZ SUB AQUÁTICA (PAR)", valor: 1500.0 },
               {
                 name: "LUZ SUB AQUÁTICA LED 7 cores 12 prog. (PAR)",
                 valor: 3000.0,
               },
-              { name: "BATERIA AUXILIAR 150 Ah", valor: 1500.0 },
-              { name: "FLAPS HIDRÁULICOS", valor: 7000.0 },
-              { name: "LUZ STROBO", valor: 1000.0 },
+              { name: "BATERIA AUXILIAR 200 Ah", valor: 2300.0 },
               {
-                name:
-                  "KIT ENXOVAL NHD 280:  6 ALMOFADAS, 1 LENÇOL, 1 MANTA, 2 TOALHAS DE ROSTO e 2 TOALHAS DE BANHO.",
-                valor: 2500.0,
+                name: "CARREGADOR DE BATERIAS 110 V + CABO DE CAIS",
+                valor: 6900.0,
               },
-              { name: "FECHAMENTO TOTAL DO TOLDO", valor: 7000.0 },
-              { name: "ARMÁRIO ACRÍLICO NA CABINE", valor: 1200.0 },
-              { name: "SOLÁRIO DE PROA", valor: 2900.0 },
+              { name: "FLAPS HIDRÁULICOS", valor: 8500.0 },
+              { name: "LUZ STROBO", valor: 1000.0 },
               {
                 name:
                   "CONJUNTO MICROONDAS (MÓVEL EM TEKA + MICROONDAS 20 L + INVERSOR XANTREX 1800W, 110 V)",
                 valor: 8700.0,
               },
-              { name: "TV LED 12 V + ANTENA", valor: 3800.0 },
-              { name: "GELADEIRA ELBER 52 L 12V", valor: 5000.0 },
+              {
+                name: "CONJUNTO MICROONDAS (MÓVEL EM TEKA + MICROONDAS 20 L)",
+                valor: 3500.0,
+              },
+              { name: "GELADEIRA ELBER 52 L 12 V", valor: 5000.0 },
+              { name: "TV LED 12 V + ANTENA", valor: 4500.0 },
+              { name: "BOILER", valor: 5100.0 },
+              {
+                name: "AR CONDICIONADO 12.000 BTUs STARMARINE",
+                valor: 13000.0,
+              },
+              { name: "GERADOR SWELL  6 KVA ( diesel)", valor: 35000.0 },
             ],
           },
+
         ],
       },
     ];
@@ -599,7 +614,7 @@ $().ready(function () {
     $(".collapse").collapse("hide");
     $("#controlPanel").removeClass("d-none");
     $("#responseSucess").addClass("d-none");
-    $('#responseSucess').empty();
+    $("#responseSucess").empty();
     $(".btn-back").remove();
   }
 
@@ -670,9 +685,7 @@ $().ready(function () {
             totalAcce = transformNumber + totalAcce;
           }
         } else {
-          let uniqValue = $(`input[value="${dataAcessorios}"]`).attr(
-            "valor"
-          );
+          let uniqValue = $(`input[value="${dataAcessorios}"]`).attr("valor");
           let transformNumber = parseInt(uniqValue);
           totalAcce = transformNumber;
         }
@@ -680,8 +693,10 @@ $().ready(function () {
         let initValueMotor = parseInt(
           $(`option[value="${serializeForm.motor}"]`).attr("valor")
         );
+
         let initValueCasco = parseInt($("#casco").val());
         let valorTotal = initValueMotor + initValueCasco + totalAcce;
+        console.log(`totalAcce: ${totalAcce}`)
         let final = valorTotal.toLocaleString("pt-br", {
           style: "currency",
           currency: "BRL",
@@ -691,7 +706,6 @@ $().ready(function () {
           ...serializeForm,
           final,
         };
-
         $.ajax({
           type: "POST",
           url: "./mail/mail.php",
@@ -699,7 +713,7 @@ $().ready(function () {
           success: function (response) {
             sucessRoute(response);
           },
-          beforeSend: function() {
+          beforeSend: function () {
             $(".generalForm input").attr("disabled", "disabled");
             $(".generalForm select").attr("disabled", "disabled");
             $(".generalForm button[type='submit']").addClass("d-none");

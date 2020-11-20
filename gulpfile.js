@@ -22,7 +22,7 @@ function browser() {
     connect.server({}, function() {
         browserSync({
             files: ["assets/scss/*.scss", "assets/js/*.js", "*.html"],
-            proxy: 'https://192.168.15.14/marine-broker' // Link do Wordpress
+            proxy: 'https://192.168.15.4/marine-broker' // Link do Wordpress
         });
     });
 }
